@@ -1870,6 +1870,53 @@ const database = {
             quiz: `<div id="quiz-container"></div>`
         }
     },
+    thesen_ottonen: {
+        title: "Thesendiskussion Ottonen",
+        menu: [
+            { id: "these_1", title: "1. Institutionalisierte Machtteilhabe" },
+            { id: "these_2", title: "2. Rettung der Dynastie" },
+            { id: "these_3", title: "3. Adelheids autarke Machtbasis" },
+            { id: "these_4", title: "4. Theophanu & Fremdheitsdiskurs" }
+        ],
+        content: {
+            these_1: `
+                <div class="card">
+                    <h2>Wissenschaftliche Thesendiskussion (1/4)</h2>
+                    <h3>These 1: Die institutionalisierte Machtteilhabe ("consors regni")</h3>
+                    <div class="info-block">
+                        <p><strong>These:</strong> Die ottonischen Kaiserinnen waren keine passiven Begleiterinnen. Sie besaßen eine fest verankerte (institutionalisierte) Teilhabe an der kaiserlichen Macht, die in offiziellen Urkunden und der Kunst sichtbar gemacht wurde.</p>
+                    </div>
+                    <p><strong>Wissenschaftliche Analyse (einfach erklärt):</strong> Lange Zeit dachte man, die Ehefrauen der Kaiser seien nur für repräsentative Zwecke und die Geburt von Erben da gewesen. Diese These widerlegt das. Adelheid und Theophanu trugen den offiziellen Titel <em>consors regni</em> (wörtlich: Teilhaberin an der Herrschaft). Das war kein leerer Ehrentitel. Wir sehen das an sogenannten <strong>Interventionen</strong>: In vielen Urkunden steht ausdrücklich, dass der Kaiser ein Gesetz oder eine Ländereienschenkung auf den direkten Rat seiner Frau erlassen hat. Auch in der Kunst jener Zeit (z. B. auf wertvollen Elfenbeinplatten) werden der Kaiser und die Kaiserin oft exakt gleich groß und auf Augenhöhe dargestellt – ein klares politisches Signal ihrer Gleichwertigkeit.</p>
+                </div>`,
+            these_2: `
+                <div class="card">
+                    <h2>Wissenschaftliche Thesendiskussion (2/4)</h2>
+                    <h3>These 2: Die Rettung der Dynastie durch weibliches Krisenmanagement</h3>
+                    <div class="info-block">
+                        <p><strong>These:</strong> Dass die Dynastie der Liudolfinger (Ottonen) nach 983 nicht unterging, verdankte sie nicht den männlichen Adligen, sondern dem massiven diplomatischen Eingreifen der Kaiserinnen.</p>
+                    </div>
+                    <p><strong>Wissenschaftliche Analyse (einfach erklärt):</strong> Als Otto II. im Jahr 983 plötzlich starb, war der Thronfolger Otto III. erst drei Jahre alt. Diese enorme Schwäche nutzte Heinrich der Zänker (ein Verwandter) aus, um nach der Krone zu greifen – er wurde zum <strong>Usurpator</strong> (Thronräuber). In dieser Krise übernahmen Adelheid und Theophanu als <em>dominae imperiales</em> (kaiserliche Herrscherinnen) die <strong>Regentschaft</strong> (sie regierten stellvertretend für das Kind). Durch ihr gewaltiges diplomatisches Netzwerk und politisches Geschick drängten sie Heinrich zurück, sicherten dem Kind den Thron und bewahrten das Reich vor einem Bürgerkrieg.</p>
+                </div>`,
+            these_3: `
+                <div class="card">
+                    <h2>Wissenschaftliche Thesendiskussion (3/4)</h2>
+                    <h3>These 3: Adelheids autarke Machtbasis</h3>
+                    <div class="info-block">
+                        <p><strong>These:</strong> Adelheids anhaltende Macht beruhte nicht nur darauf, wen sie geheiratet hatte, sondern auf ihrer völligen finanziellen Unabhängigkeit (Autarkie) und ihrem klugen Umgang mit der Kirche.</p>
+                    </div>
+                    <p><strong>Wissenschaftliche Analyse (einfach erklärt):</strong> Zu Beginn ihrer Karriere war Adelheid für Otto I. vor allem attraktiv, weil eine Hochzeit mit ihr den Anspruch auf Italien sicherte. Doch später baute sie sich eine eigene Machtbasis auf. Sie besaß gigantische <strong>Witwengüter</strong> – das waren Ländereien, die ihr ganz allein gehörten und ihr unbegrenzte finanzielle Mittel gaben. Zudem unterstützte sie die <strong>Cluniazensische Reform</strong>, eine kirchliche Bewegung, die strengere und unabhängigere Klöster forderte. Indem sie diese Klöster förderte, schuf sie sich ein europaweites Netzwerk aus loyalen und hochgebildeten Geistlichen, auf die sie sich in Krisenzeiten jederzeit verlassen konnte.</p>
+                </div>`,
+            these_4: `
+                <div class="card">
+                    <h2>Wissenschaftliche Thesendiskussion (4/4)</h2>
+                    <h3>These 4: Theophanus byzantinisches Kapital und der Fremdheitsdiskurs</h3>
+                    <div class="info-block">
+                        <p><strong>These:</strong> Theophanu wertete das ottonische Reich durch die Kultur aus Byzanz enorm auf. Der alteingesessene Adel nutzte ihre ausländische Herkunft jedoch gezielt als politisches Werkzeug, um sie anzugreifen.</p>
+                    </div>
+                    <p><strong>Wissenschaftliche Analyse (einfach erklärt):</strong> Theophanu stammte aus dem Byzantinischen Reich (dem heutigen Istanbul), das damals als Nabel der zivilisierten Welt galt. Sie brachte Luxus, neue Zeremonien und hochgebildetes Personal mit – das nennt man <strong>Kulturkapital</strong>. Dies half den Ottonen, ihr eigenes Kaisertum aufzuwerten. Doch Theophanu drängte Adelheid schnell aus der Politik. Die sächsischen Adligen, die auf Adelheids Seite standen, mochten das gar nicht. Um Theophanu zu schwächen, starteten sie einen <strong>Fremdheitsdiskurs</strong>: Sie redeten schlecht über ihre griechische Herkunft und nannten sie eine "ausländische Diebin" der Macht. Es ging also weniger um Rassismus, sondern darum, eine mächtige Konkurrentin mit dem Argument der "Fremdheit" politisch auszuschalten.</p>
+                </div>`
+        }
+    },
     frauen_ww1: {
         title: "Frauen im 1. Weltkrieg",
         menu: [
